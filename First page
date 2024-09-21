@@ -1,0 +1,90 @@
+# Data Types and Variables
+
+## Strings
+```python
+# Creating a string
+my_string = "Hello, Python!"
+print(my_string)
+
+# String methods
+print(my_string.upper())
+print(my_string.lower())
+print(len(my_string))
+
+# Working with integers
+x = 10
+y = 3.5
+
+# Arithmetic operations
+print(x + y)  # Addition
+print(x * y)  # Multiplication
+print(x / y)  # Division
+
+# Boolean values
+is_python_fun = True
+print(is_python_fun)
+
+# Creating a list
+my_list = [1, 2, 3, 4, 5]
+print(my_list)
+
+# List methods
+my_list.append(6)
+print(my_list)
+
+# Creating a tuple
+my_tuple = (1, 2, 3)
+print(my_tuple)
+
+# Creating a set
+my_set = {1, 2, 3, 4, 4, 5}
+print(my_set)  # Notice how duplicate values are removed
+
+# Creating a dictionary
+student = {'name': 'Ibrahim', 'age': 26, 'course': 'Data Analytics'}
+print(student)
+
+# Accessing a value
+print(student['name'])
+
+# Adding a new key-value pair
+student['city'] = 'Birmingham'
+print(student)
+
+# Removing a key-value pair
+del student['age']
+print(student)
+
+
+---
+
+
+## If, Else, and Elif Statements
+```python
+# Basic if-else statement
+book = 'raazi'
+if book == 'raazi':
+    print('Match found!')
+else:
+    print('No match')
+
+# Multiple conditions using elif
+book = 'kitaab'
+if book == 'raazi':
+    print('Match found: raazi')
+elif book == 'kitaab':
+    print('Match found: kitaab')
+else:
+    print('No match')
+
+# Using a for loop to iterate over a list
+my_list = [1, 2, 3, 4, 5]
+for item in my_list:
+    print(item)
+
+# Using a while loop
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
